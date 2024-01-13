@@ -34,10 +34,10 @@ class Doggy < Formula
   end
 
   def install
-    'bin.install "doggy" => "doggy"'
+    bin.install "doggy" => "doggy"
   end
 
   test do
-    'assert_match("doggy", shell_output("doggy --version"))'
+    assert_match("doggy", shell_output("doggy --version"))
   end
 end
