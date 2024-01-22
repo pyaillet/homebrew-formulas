@@ -5,31 +5,31 @@
 class Doggy < Formula
   desc "Minimal tui (terminal user interface) for docker"
   homepage "https://github.com/pyaillet/doggy"
-  url "https://github.com/pyaillet/doggy/archive/refs/tags/v0.4.2.tar.gz"
-  sha256 "1cd057bd3c9a3dc001cc0c668b66c1542e25dfc11ed95beb8afe76e417d75cdc"
+  url "https://github.com/pyaillet/doggy/archive/refs/tags/v0.5.0.tar.gz"
+  sha256 "6803d825019955920ca47f6eb3a51c936b4db083a42cc030abda44734a7a6a44"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/pyaillet/doggy/releases/download/v0.4.2/doggy-0.4.2-darwin-amd64.tar.gz"
-      sha256 "5fc7b3bb5f18984ba6962f707dad7e1e12eee00581eb91656eb92d9ae4ebab51"
+      url "https://github.com/pyaillet/doggy/releases/download/v0.5.0/doggy-0.5.0-darwin-amd64.tar.gz"
+      sha256 "eded2fea8e96a6d3415ae2dfe86e533b3306858dd2de4c73646c2b1a67a4bbaa"
     end
 
     on_arm do
-      url "https://github.com/pyaillet/doggy/releases/download/v0.4.2/doggy-0.4.2-darwin-arm64.tar.gz"
-      sha256 "2ce483bc4eb986d8e7cd19da96b782cc3444583fa3a3f10933452f2085329380"
+      url "https://github.com/pyaillet/doggy/releases/download/v0.5.0/doggy-0.5.0-darwin-arm64.tar.gz"
+      sha256 "e2aaa5b34f6b97f9d36f105e5c764d273b92e8dc150462d475858e0dc9ddcd91"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/pyaillet/doggy/releases/download/v0.4.2/doggy-0.4.2-linux-amd64.tar.gz"
-      sha256 "c2f22f9d5b3aebfcbf6c9fe19a220cce17033ea12bd785ef73d81c1a7ec96d31"
+      url "https://github.com/pyaillet/doggy/releases/download/v0.5.0/doggy-0.5.0-linux-amd64.tar.gz"
+      sha256 "3402d563d3b712072c121f2c2af39c992b6f1f2b26e42d3ad14731cf7e7e5d71"
     end
 
     on_arm do
-      url "https://github.com/pyaillet/doggy/releases/download/v0.4.2/doggy-0.4.2-linux-arm64.tar.gz"
-      sha256 "47eccf13a559742009f1479e9c9d439677764b26c38d6a42a95a0ef8502d865c"
+      url "https://github.com/pyaillet/doggy/releases/download/v0.5.0/doggy-0.5.0-linux-arm64.tar.gz"
+      sha256 "088ec299e69852a99dd96981088e8924b3945c40785eea4c867e062e88639742"
     end
   end
 
