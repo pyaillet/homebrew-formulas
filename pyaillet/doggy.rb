@@ -5,31 +5,31 @@
 class Doggy < Formula
   desc "Minimal tui (terminal user interface) for docker"
   homepage "https://github.com/pyaillet/doggy"
-  url "https://github.com/pyaillet/doggy/archive/refs/tags/v0.5.1.tar.gz"
-  sha256 "b12700ec606d0f85969ec4241b3c26ab9fba64d266bb146ebc9fea4aec860c52"
+  url "https://github.com/pyaillet/doggy/archive/refs/tags/v0.5.2.tar.gz"
+  sha256 "3ef8b8dd527bbb69c1fa6f3cbae298260e347e59cdeacc18b43d5d0865d757d1"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/pyaillet/doggy/releases/download/v0.5.1/doggy-0.5.1-darwin-amd64.tar.gz"
-      sha256 "a64dad6d8a32447bce408d5d96a33b83a752687aeb060d7f94f50fa4dd29f272"
+      url "https://github.com/pyaillet/doggy/releases/download/v0.5.2/doggy-0.5.2-darwin-amd64.tar.gz"
+      sha256 "e59216a9ad33150eb2c938e448cb524d305b17604ab6dc091404b1b10ab57563"
     end
 
     on_arm do
-      url "https://github.com/pyaillet/doggy/releases/download/v0.5.1/doggy-0.5.1-darwin-arm64.tar.gz"
-      sha256 "bb5d11c909cc6b21524eb3c49e71a079c099bc0b3c381e670bcf9d0ca914eed6"
+      url "https://github.com/pyaillet/doggy/releases/download/v0.5.2/doggy-0.5.2-darwin-arm64.tar.gz"
+      sha256 "368e9f28faf727a43cf0c2ba8b593f66865992ab3bb5bbc614791453c4b3c7cc"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/pyaillet/doggy/releases/download/v0.5.1/doggy-0.5.1-linux-amd64.tar.gz"
-      sha256 "6351e9713b035198db27308eeb44780a1910696508c4510083dded19c0fb7304"
+      url "https://github.com/pyaillet/doggy/releases/download/v0.5.2/doggy-0.5.2-linux-amd64.tar.gz"
+      sha256 "948ab9cdde54131a6edcffedcaeb34b9dcb94edfbf7d4988cacf7024253f4524"
     end
 
     on_arm do
-      url "https://github.com/pyaillet/doggy/releases/download/v0.5.1/doggy-0.5.1-linux-arm64.tar.gz"
-      sha256 "d0a21af44415666c139f258a537bd42bedf25d8681a3118755f29646e99fb482"
+      url "https://github.com/pyaillet/doggy/releases/download/v0.5.2/doggy-0.5.2-linux-arm64.tar.gz"
+      sha256 "45b3f5ebb8dfa509a9748d5eb5b99ecbeedbfa85394b675d2526d65be9da9e1b"
     end
   end
 
